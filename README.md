@@ -20,15 +20,25 @@ PlaySentiment is a sentiment analysis tool that examines user reviews from the G
 
 ## 📂 Project Structure
 PlaySentiment/ 
+
 │── data/ 
-│ └── user_reviews.csv # (Google Play Store reviews dataset) 
-│── src/ 
-│ ├── data_loader.py # (Loads and cleans the dataset) 
+
+│ └── user_reviews.csv # (Google Play Store reviews dataset)
+
+│── src/
+
+│ ├── data_loader.py # (Loads and cleans the dataset)
+
 │ ├── preprocessing.py # (Text processing: stopwords removal, tokenization) 
+
 │ ├── visualization.py # (Sentiment analysis plots) 
+
 │ ├── model.py # (Trains and evaluates the ML model) 
+
 │ ├── main.py # (Runs the full pipeline) 
+
 │── requirements.txt # (Required Python libraries) 
+
 │── README.md # (Project Overview & Instructions)
 
 
